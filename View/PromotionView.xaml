@@ -1,0 +1,40 @@
+﻿<Window x:Class="Wpf_GUI.View.PromotionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_GUI.View"
+        mc:Ignorable="d"
+        Title="PromotionView" Height="150" Width="410"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <StackPanel Orientation="Horizontal">
+        <Button x:Name="Promotion_2_Queen" Width="80" Margin="10 10 5 10"
+                Command="{Binding  PromotionToQueenCommand}">
+            <TextBlock>
+                Queen
+            </TextBlock>
+        </Button>
+
+        <Button x:Name="Promotion_2_Rook" Width="80" Margin="10 10 5 10"
+                 Command="{Binding PromotionToRookCommand}">
+            <TextBlock>
+                Rook
+            </TextBlock>
+        </Button>
+
+        <Button x:Name="Promotion_2_Bishop" Width="80" Margin="10 10 5 10"
+                 Command="{Binding  PromotionToBishopCommand}">
+            <TextBlock>
+                Bishop
+            </TextBlock>
+        </Button>
+
+        <Button x:Name="Promotion_2_Knight" Width="80" Margin="10 10 0 10"
+                 Command="{Binding  PromotionToKnightCommand}">
+            <TextBlock>
+                Knight
+            </TextBlock>
+        </Button>
+    </StackPanel>
+</Window>

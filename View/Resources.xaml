@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Colours -->
+    <SolidColorBrush x:Key="Black_Tile" Color="DarkSalmon"/>
+    <SolidColorBrush x:Key="White_Tile" Color="LightGray"/>
+
+     <!-- Items-->
+    <Style TargetType="Rectangle">
+    </Style>    
+</ResourceDictionary>
